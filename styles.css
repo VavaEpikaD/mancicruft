@@ -1,5 +1,4 @@
 body {
   background-image: url('mincruft.jpg');
-  width: 75px;
-  height: 75px;
+  background-size: 75px 75px;
 }
