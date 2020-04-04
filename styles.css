@@ -2,3 +2,16 @@ body {
   background-image: url('mincruft.jpg');
   background-size: 75px 75px;
 }
+
+.textbox {
+  position: relative;
+  height: auto;
+  margin: 35px;
+  padding: 20px;
+  width: 92%;
+  background-color: RGBA(1, 1, 1, 0.5);
+  border: 1px solid black;
+  border-radius: 6px;
+  color: RGB(0, 200, 0);
+  font-size: 20px;
+}
