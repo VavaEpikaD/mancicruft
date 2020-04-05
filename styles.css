@@ -154,3 +154,25 @@ img.dirt, img.stone, img.coal, img.iron, img.diamond, img.bedrock, img.gold, img
 .sky {
   content: url('sky.png');
 }
+
+.title {
+  font-size: 45px;
+  border-bottom: 2px solid #00C;
+}
+
+.link {
+  text-decoration: none;
+  font-style: italic;
+  color: #008;
+}
+
+.link:hover {
+  transition: 0.3s;
+  color: #00C;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
