@@ -42,13 +42,13 @@ li a {
 }
 
 li a:hover {
-  transition: 0.5s;
-  background-image: url('grass.jpg');
+  transition: 1s;
+  background-image: url('navgrass.jpg');
   background-size: auto 100%;
 }
 
 #selected {
-  background-image: url('grass.jpg');
+  background-image: url('navgrass.jpg');
   background-size: auto 100%;
 }
 
@@ -61,11 +61,11 @@ li a:hover {
 }
 
 .parent {
-display: grid;
-grid-template-columns: repeat(18, 1fr);
-grid-template-rows: repeat(1, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
 .div1 { grid-area: 1 / 1 / 2 / 2; }
 .div2 { grid-area: 1 / 2 / 2 / 3; }
@@ -101,13 +101,25 @@ grid-row-gap: 0px;
   background-size: 75px 75px;
 }
 
-img.dirt, img.stone, img.coal, img.iron, img.diamond, img.bedrock, img.gold, img.emerald {
+img.dirt, img.stone, img.coal, img.iron, img.diamond, img.bedrock, img.gold, img.emerald, img.sky, img.grass, img.log, img.leaves {
   width: 75px;
   height: 75px;
 }
 
+.log {
+  content: url('log.jpg');
+}
+
+.leaves {
+  content: url('leaves.jpg');
+}
+
 .dirt {
-  content: url('dirt.jpg');
+  content: url('dirt.jpeg');
+}
+
+.grass {
+  content: url('grass.jpeg');
 }
 
 .stone {
@@ -136,4 +148,8 @@ img.dirt, img.stone, img.coal, img.iron, img.diamond, img.bedrock, img.gold, img
 
 .gold {
   content: url('gold.png');
+}
+
+.sky {
+  content: url('sky.png');
 }
