@@ -185,23 +185,8 @@ li {
 .div17 { grid-area: 1 / 17 / 2 / 18; }
 .div18 { grid-area: 1 / 18 / 2 / 19; }
 
-#dirt {
-  background-image: url('dirt.jpg');
-  background-size: 75px 75px;
-}
-
-#stone {
-  background-image: url('stone.jpeg');
-  background-size: 75px 75px;
-}
-
-#bedrock {
-  background-image: url('bedrock.png');
-  background-size: 75px 75px;
-}
-
-img.dirt, img.stone, img.coal, img.iron, img.diamond, img.bedrock, img.gold, img.emerald, img.sky, img.grass, img.log, img.leaves, img.nightsky, img.sand, img.sandstone, img.birchplanks, img.rooflog {
-  width: 75px;
+img {
+  width: 100%;
   height: 75px;
 }
 
