@@ -16,7 +16,7 @@ body {
   font-size: 20px;
 }
 
-ul {
+#home ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -27,11 +27,44 @@ ul {
   border: 1px solid black;
 }
 
+#guide ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  background-image: url('turnedlog.jpg');
+  background-size: 49px 100%;
+  border: 1px solid black;
+}
+
+#mobs ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  background-image: url('darknavdirt.jpg');
+  background-size: 49px 100%;
+  border: 1px solid black;
+}
+
+#biomes ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  background-image: url('sand.jpg');
+  background-size: 49px 100%;
+  border: 1px solid black;
+}
+
 li {
   float: left;
 }
 
-li a {
+#home li a {
   display: block;
   color: white;
   text-align: center;
@@ -42,15 +75,80 @@ li a {
   background-size: auto 100%;
 }
 
-li a:hover {
-  transition: 1s;
+#guide li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-shadow: 4px 4px 8px rgb(0, 0, 0);
+  background-image: url('turnedlog.jpg');
+  background-size: auto 100%;
+}
+
+#mobs li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-shadow: 4px 4px 8px rgb(0, 0, 0);
+  background-image: url('darknavdirt.jpg');
+  background-size: auto 100%;
+}
+
+#biomes li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-shadow: 4px 4px 8px rgb(0, 0, 0);
+  background-image: url('sand.jpg');
+  background-size: auto 100%;
+}
+
+#home li a:hover {
+  transition: 0.7s;
   background-image: url('navgrass.jpg');
   background-size: auto 100%;
 }
 
-#selected {
+#guide li a:hover {
+  transition: 0.7s;
+  background-image: url('strippedlog.jpg');
+  background-size: auto 100%;
+}
+
+#mobs li a:hover {
+  transition: 0.7s;
+  background-image: url('darknavgrass.jpg');
+  background-size: auto 100%;
+}
+
+#biomes li a:hover {
+  transition: 0.7s;
+  background-image: url('sand2.jpg');
+  background-size: auto 100%;
+}
+
+#home #selected {
   background-image: url('navgrass.jpg');
   background-size: auto 100%;
+}
+
+#guide #selected {
+  background-image: url('strippedlog.jpg');
+  background-size: auto 100%;
+}
+
+#mobs #selected {
+  background-image: url('darknavgrass.jpg');
+  background-size: auto 100%;
+}
+
+#biomes #selected {
+  background-image: url('sand2.jpg');
 }
 
 .background {
@@ -102,7 +200,7 @@ li a:hover {
   background-size: 75px 75px;
 }
 
-img.dirt, img.stone, img.coal, img.iron, img.diamond, img.bedrock, img.gold, img.emerald, img.sky, img.grass, img.log, img.leaves {
+img.dirt, img.stone, img.coal, img.iron, img.diamond, img.bedrock, img.gold, img.emerald, img.sky, img.grass, img.log, img.leaves, img.nightsky, img.sand, img.sandstone, img.birchplanks, img.rooflog {
   width: 75px;
   height: 75px;
 }
@@ -115,12 +213,20 @@ img.dirt, img.stone, img.coal, img.iron, img.diamond, img.bedrock, img.gold, img
   content: url('leaves.jpg');
 }
 
-.dirt {
+#home .dirt, #biomes .dirt, #guide .dirt {
   content: url('dirt.jpeg');
 }
 
-.grass {
+#mobs .dirt {
+  content: url('darknavdirt.jpg');
+}
+
+#home .grass, #biomes .grass, #guide .grass {
   content: url('grass.jpeg');
+}
+
+#mobs .grass {
+  content: url('darknavgrass.jpg');
 }
 
 .stone {
@@ -151,8 +257,28 @@ img.dirt, img.stone, img.coal, img.iron, img.diamond, img.bedrock, img.gold, img
   content: url('gold.png');
 }
 
+.sand {
+  content: url('sand.jpg');
+}
+
+.sandstone {
+  content: url('sandstone.jpg');
+}
+
+.rooflog {
+  content: url('rooflog.jpg');
+}
+
+.birchplanks {
+  content: url('birchplanks.jpg');
+}
+
 .sky {
   content: url('sky.png');
+}
+
+.nightsky {
+  content: url('nightsky.png');
 }
 
 .title {
