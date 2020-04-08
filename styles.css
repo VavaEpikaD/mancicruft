@@ -218,6 +218,10 @@ img {
   content: url('stone.jpeg');
 }
 
+.granite {
+  content: url('granite.jpg');
+}
+
 .coal {
   content: url('coal.jpg');
 }
@@ -264,6 +268,22 @@ img {
 
 .nightsky {
   content: url('nightsky.png');
+}
+
+.stonebg {
+  content: url('stonebg.jpg')
+}
+
+.lava {
+  content: url('lava.jpg')
+}
+
+.redstone {
+  content: url('redstone.jpg');
+}
+
+.lapis {
+  content: url('lapis.jpg');
 }
 
 .title {
