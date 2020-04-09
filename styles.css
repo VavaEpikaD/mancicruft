@@ -271,11 +271,56 @@ img {
 }
 
 .stonebg {
-  content: url('stonebg.jpg')
+  content: url('stonebg.jpg');
+}
+
+.ironbg {
+  content: url('ironbg.jpg');
+}
+
+.dirtbg {
+  content: url('dirtbg.jpg');
+}
+
+.grassbg {
+  content: url('grassbg.jpg');
+}
+
+.cobble {
+  content: url('cobblestone.jpg');
+}
+
+.chest {
+  content: url('chest.png');
+  position: absolute;
+  width: 5.555%;
+  z-index: 1;
+}
+
+.chestbg {
+  content: url('chestbg.png');
+  position: absolute;
+  width: 5.555%;
+  z-index: 1;
+}
+
+.bed {
+  content: url('bed.png');
+  position: absolute;
+  width: 11.111%;
+  z-index: 1;
 }
 
 .lava {
-  content: url('lava.jpg')
+  content: url('lava.jpg');
+}
+
+.oak {
+  content: url('oak.jpg');
+}
+
+.oakbg {
+  content: url('oakbg.jpg');
 }
 
 .redstone {
